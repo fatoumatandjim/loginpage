@@ -1,0 +1,66 @@
+.marque{
+    font-size: 50px;
+    color:white;
+}
+body{
+    background: linear-gradient(#f56d06,#c4743f);
+
+}
+.email{
+    width: 500px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 50PX;
+}
+.email:required:valid{
+    border-color: #17d317;
+}
+
+
+#reset:focus{
+    background: mediumaquamarine;
+}
+
+.password{
+    width: 500px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 50PX;
+    
+
+}
+.password:required:valid{
+    border-color: rgb(42, 216, 42);
+}
+.submit{
+    display: inline-block;
+    justify-content: space-between;
+    margin: 100px;
+    justify-items: center;
+    
+    
+}
+#reset{
+    margin-right: 200px;
+    background-color:white;
+    width: 150px;
+    height:40px;
+}
+#reset:hover{
+    background-color: cadetblue;
+}
+.soumettre{
+    background-color: white;
+    width: 150px;
+    height:40px;
+}
+
+.soumettre:hover{
+    background-color: cadetblue;
+
+}
+label{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+}
